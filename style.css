@@ -1,0 +1,391 @@
+
+body{
+    font-family: 'Brygada 1918', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Banner section styles */ 
+.banner-bg{
+    padding: 150px;
+    background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(./resources/Banner\ Image.png) 
+    no-repeat center top /cover;
+    position: relative;
+    margin-top: 35px;
+}
+
+ h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    color: #FFF;
+      
+}
+
+h1{
+    font-size: 70px;
+    padding-left: 70PX;
+    padding-right: 70PX;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: -25PX;
+}
+
+/* Offer Section styles */
+.off{
+    color: #df0f0f;
+    padding-top: 20px;
+}
+.holiday{
+    color: #df0f0f;
+}
+.all{
+   color: #000000;
+   font-size: 32px;
+   margin-top: -5px;
+}
+.new-year-photo{
+    margin-top: 25px;
+    margin-left: 175px;
+    width: 800px;
+}
+/* welcome section styles */
+.victor-title{
+    padding: 150px;
+    background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(./resources/Vectorrr.png)no-repeat center top /cover;
+    position: relative;
+    margin-top: 80px;
+}
+
+.welcome{
+    text-align: left;
+    margin-left: -115px;
+    margin-top: -50px; 
+}
+
+.Christmas{
+    color: #ffffff;
+    margin-left: -50px;
+    margin-top: -30px;
+}
+.btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 0;
+    background-color: #dfdf0f;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+/* Place section styles */
+.place-title{
+    padding: 80px 150px;
+    background-color: #e0e0b5;
+    margin-top: 100px;
+}
+
+.place{
+    color: #000000;
+}
+
+span{
+    color: #df0f0f;
+}
+
+.btn-btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 0;
+    background-color: #e91010;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 365px;
+    
+}
+/* coming soon section styles */
+.coming-soon{
+    display: flex;
+    gap: 70px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.coming h4{
+    color: #e40a0a;
+    margin-left: -144px;
+    margin-top: 90px;
+}
+
+.coming h2{
+    color: #000000;
+    margin-left: -100px; 
+     
+}
+
+.coming .twenty-four{
+    color: #e40a0a;
+    margin-top: 135px;
+    margin-right: 120px;
+    margin-bottom: 38px;
+}
+
+.Ellipse{
+    padding: 20px;
+    border: 20px solid red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.happy{
+    margin-top: 20px;
+}
+
+/* Discount section styles */
+.holiday-title h4{
+    color: #000000;
+    margin-top: 110px;
+    margin-bottom: -35px;
+}
+.holiday-title h1{
+    color: #000000;
+}
+.holiday-title h1 span{
+    color: #df0f0f; 
+   
+}
+.Holidays-Sale{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -18px;
+}
+
+.rectangle{
+   padding-top: 40px;
+   
+}
+.rectangle img{
+    
+}    
+
+
+
+.img-2{
+   width: 135px; 
+   position: absolute;
+   right: 329px;
+   margin-top: -200px; 
+}
+
+.img-3{
+   width: 308px;
+   position: relative;
+   right: -832px;  
+}
+
+.img-6{  
+    position: absolute;
+    margin-top: -5px; 
+    width: 1140px;
+    
+}
+
+
+.img-7{
+    position: relative;
+    width: 650px;
+    bottom: 345px;
+    margin-bottom: -350px;
+    
+}
+
+
+/* portfolio section styles */
+.portfolio{
+   
+}
+
+.portfolio-img{
+    display: flex; 
+    gap: 20px;  
+}
+
+.portfolio h4{
+    color: #e91010;
+    text-align: left;
+    margin-bottom: -5PX;
+
+}
+
+.portfolio h3{
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.portfolio p{
+    margin-bottom: 40px;
+}
+
+
+.portfolio-img img{
+    width: 367px;
+    border: 1px solid #f1e9e9;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio-img img:hover{
+    border: 1px solid #3107da;
+}
+
+/* Subscribe section styles*/
+.subscribe{
+    background-color: #e0e0b5;
+    margin-top: 80px;
+}
+.subscribe img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.subscribe p{
+    text-align: center;
+    margin-top: 55px;
+}
+
+.subscribe h4{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.btn-1{
+    border-radius: 50px 0 0 50px;
+    -webkit-border-radius: 50px 0 0 50px;
+    -moz-border-radius: 50px 0 0 50px;
+    -ms-border-radius: 50px 0 0 50px;
+    -o-border-radius: 50px 0 0 50px;
+    padding: 8px;
+    padding-right: 175px;
+    padding-left: 15px;
+    border: 0;
+    margin-left: 355px;
+    margin-top: 30px;
+    margin-bottom: 95px;
+}
+
+.btn-2{
+    border-radius: 0 50px 50px 0;
+    -webkit-border-radius: 0 50px 50px 0;
+    -moz-border-radius: 0 50px 50px 0;
+    -ms-border-radius: 0 50px 50px 0;
+    -o-border-radius: 0 50px 50px 0;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-left: -5px;
+    background-color: #df0f0f;
+    color: #ffffff;
+    border: 0;
+    border-left: 0;
+    margin-bottom: 50px;
+}
+
+.footer-content{
+    background-color: #000000;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 5px solid #3107da; 
+}
+.add{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.add h5{
+    margin-left: 102px;
+    text-align: left;
+    
+}
+
+.call{
+    margin-right: 200px;
+    
+}
+.call-1{
+    margin-left: 30px;
+    position: relative;
+    color: #ffffff;
+   
+}
+.img-4{
+    margin-top: -3px;
+    position: absolute;
+
+}
+.website-1{
+    margin-top: 10px;
+    margin-left: -290px;
+    position: absolute;
+    color: #ffffff;
+   
+}
+
+.img-5{
+    margin-top: 9px;
+    position: relative; 
+    margin-right: 298px ;
+}
+
+.social-icon{
+    text-align: center;
+    padding: 36px; 
+}
+
+.social-icon img{
+    margin-left: 25px;
+}
+
+hr{
+   margin-left: 102px;
+   margin-right: 102px;
+   color: #1b1717;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-between; 
+    
+    
+}
+.footer-1{
+    padding-top: 40px;
+    color: #ffffff;
+    margin-left: 102px;
+}
+
+.footer-2{
+    padding-top: 40px;
+    color: #ffffff;
+    margin-right: 102px;
+}
